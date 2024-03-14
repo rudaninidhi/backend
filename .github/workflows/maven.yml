@@ -76,5 +76,5 @@ jobs:
             echo "Java process started."
             ls target
             nohup java -jar target/helloworld-0.0.1-SNAPSHOT.jar > output.log>&1 &
-            echo "Java process started."
+            echo "Java process started"
 
